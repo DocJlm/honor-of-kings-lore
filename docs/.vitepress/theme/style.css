@@ -132,9 +132,3 @@ html[lang^='zh'] .vp-doc li {
   height: auto;
   margin: 0 auto;
 }
-.vp-doc .mermaid .edgeLabel,
-.vp-doc .mermaid .label text,
-.vp-doc .mermaid .nodeLabel {
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
-}

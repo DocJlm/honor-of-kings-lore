@@ -23,25 +23,27 @@
 
 ```mermaid
 %%{init: {
-  "flowchart": { "nodeSpacing": 56, "rankSpacing": 92, "padding": 16 },
-  "themeVariables": { "fontSize": "18px" }
+  "flowchart": { "nodeSpacing": 60, "rankSpacing": 110, "padding": 24 },
+  "themeVariables": { "fontSize": "16px" }
 }}%%
 flowchart TD
     A["起源时代<br/>（太古·方舟降临）"] --> B["上古文明<br/>（起源鼎盛期）"]
-    B --> C["神明时代 / 封神时代<br/>（诸神之战·神隐）"]
-    C --> D["人类时代 / 逐鹿时代<br/>（群雄并起·至今）"]
-    C -.孕育.-> E["先民时代 / 峡谷文明<br/>（英雄时代前夜）"]
+    B --> C["神明时代<br/>封神时代<br/>（诸神之战·神隐）"]
+    C --> D["人类时代<br/>逐鹿时代<br/>（群雄并起·至今）"]
+    C -.-> E["先民时代<br/>峡谷文明<br/>（英雄时代前夜）"]
     E --> D
 
-    D -.破晓投射.-> P1["破晓宇宙<br/>（平行时空·星之破晓）"]
-    A -.红蓝母题共创.-> P2["琥珀纪元<br/>（平行世界·截星计划）"]
-    C -.灭世回溯.-> P3["《王者荣耀世界》主线<br/>（开放世界·元流之子）"]
+    D -.-> P1["破晓宇宙<br/>（平行时空·星之破晓）"]
+    A -.-> P2["琥珀纪元<br/>（平行世界·截星计划）"]
+    C -.-> P3["《王者荣耀世界》主线<br/>（开放世界·元流之子）"]
 
     classDef main fill:#1b3a5c,stroke:#7db3e0,color:#fff;
     classDef para fill:#5c2b1b,stroke:#e0a07d,color:#fff;
     class A,B,C,D,E main;
     class P1,P2,P3 para;
 ```
+
+注：虚线表示「分叉投影 / 回溯关联」而非主世界线的严格线性承接。
 
 若以时间轴视角观察主世界线的关键转折，则如下：
 
