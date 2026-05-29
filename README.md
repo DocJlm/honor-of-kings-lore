@@ -8,7 +8,7 @@
 
 图文 · 表格 · 关系网 —— 务求全面，越详细越好。
 
-[![docs](https://img.shields.io/badge/阅读-在线文档-f5c542)](https://winbeau.github.io/honor-of-kings-lore/)
+[![docs](https://img.shields.io/badge/阅读-文档入口-f5c542)](docs/index.md)
 [![mkdocs](https://img.shields.io/badge/built%20with-MkDocs--Material-blue)](https://squidfunk.github.io/mkdocs-material/)
 ![heroes](https://img.shields.io/badge/英雄-120%2B-c8901a)
 ![factions](https://img.shields.io/badge/阵营-17-7e57c2)
