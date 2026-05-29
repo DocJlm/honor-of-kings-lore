@@ -22,6 +22,10 @@
 下图概览主世界线五大纪元的承接顺序，以及三条平行时空分支的投射关系。
 
 ```mermaid
+%%{init: {
+  "flowchart": { "nodeSpacing": 56, "rankSpacing": 92, "padding": 16 },
+  "themeVariables": { "fontSize": "18px" }
+}}%%
 flowchart TD
     A["起源时代<br/>（太古·方舟降临）"] --> B["上古文明<br/>（起源鼎盛期）"]
     B --> C["神明时代 / 封神时代<br/>（诸神之战·神隐）"]
@@ -29,9 +33,9 @@ flowchart TD
     C -.孕育.-> E["先民时代 / 峡谷文明<br/>（英雄时代前夜）"]
     E --> D
 
-    D -.破晓之心被砍碎·投射.-> P1["破晓宇宙<br/>（平行时空·星之破晓）"]
-    A -.红蓝能量母题·共创.-> P2["琥珀纪元<br/>（平行世界·截星计划）"]
-    C -.灭世之战·时空回溯.-> P3["《王者荣耀世界》主线<br/>（开放世界·元流之子）"]
+    D -.破晓投射.-> P1["破晓宇宙<br/>（平行时空·星之破晓）"]
+    A -.红蓝母题共创.-> P2["琥珀纪元<br/>（平行世界·截星计划）"]
+    C -.灭世回溯.-> P3["《王者荣耀世界》主线<br/>（开放世界·元流之子）"]
 
     classDef main fill:#1b3a5c,stroke:#7db3e0,color:#fff;
     classDef para fill:#5c2b1b,stroke:#e0a07d,color:#fff;

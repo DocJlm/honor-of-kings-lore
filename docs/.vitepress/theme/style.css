@@ -123,5 +123,18 @@ html[lang^='zh'] .vp-doc li {
 /* mermaid 居中 */
 .vp-doc .mermaid {
   text-align: center;
-  margin: 1.2rem 0;
+  margin: 1.2rem 0 2rem;
+  overflow-x: auto;
+}
+.vp-doc .mermaid svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.vp-doc .mermaid .edgeLabel,
+.vp-doc .mermaid .label text,
+.vp-doc .mermaid .nodeLabel {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
