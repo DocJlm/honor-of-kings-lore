@@ -24,13 +24,13 @@
 ```mermaid
 %%{init: {
   "flowchart": { "nodeSpacing": 60, "rankSpacing": 110, "padding": 24 },
-  "themeVariables": { "fontSize": "16px" }
+  "themeVariables": { "fontSize": "14px" }
 }}%%
 flowchart TD
     A["起源时代<br/>（太古·方舟降临）"] --> B["上古文明<br/>（起源鼎盛期）"]
-    B --> C["神明时代<br/>封神时代<br/>（诸神之战·神隐）"]
-    C --> D["人类时代<br/>逐鹿时代<br/>（群雄并起·至今）"]
-    C -.-> E["先民时代<br/>峡谷文明<br/>（英雄时代前夜）"]
+    B --> C["神明 / 封神时代<br/>诸神之战·神隐"]
+    C --> D["人类 / 逐鹿时代<br/>群雄并起·至今"]
+    C -.-> E["先民 / 峡谷文明<br/>英雄时代前夜"]
     E --> D
 
     D -.-> P1["破晓宇宙<br/>（平行时空·星之破晓）"]

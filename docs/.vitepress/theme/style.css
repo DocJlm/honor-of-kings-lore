@@ -136,9 +136,13 @@ html[lang^='zh'] .vp-doc li {
 .vp-doc .mermaid span,
 .vp-doc .mermaid .nodeLabel,
 .vp-doc .mermaid .edgeLabel {
-  line-height: 1.25 !important;
+  font-size: 14px !important;
+  line-height: 1.2 !important;
   letter-spacing: 0 !important;
 }
 .vp-doc .mermaid p {
   margin: 0 !important;
+}
+.vp-doc .mermaid foreignObject {
+  overflow: visible;
 }
