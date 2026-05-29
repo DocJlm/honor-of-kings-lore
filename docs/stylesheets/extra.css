@@ -1,0 +1,81 @@
+/* ===== 王者大陆全史 · 自定义样式 ===== */
+
+:root {
+  --hok-gold: #c8901a;
+  --hok-gold-light: #f5c542;
+  --hok-ink: #1a1a2e;
+}
+
+/* 强调色微调：金色更贴合王者主题 */
+[data-md-color-accent="amber"] {
+  --md-accent-fg-color: #e0a82e;
+}
+
+/* 中文正文行高与字间距，长文更易读 */
+.md-typeset {
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+}
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  letter-spacing: 0.02em;
+}
+
+/* 章节大标题下的金色分隔线 */
+.md-typeset h2 {
+  border-bottom: 2px solid var(--hok-gold);
+  padding-bottom: 0.3rem;
+}
+
+/* ===== 定位标签 pill ===== */
+.hok-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.6rem 0 1rem; }
+.hok-tags .tag {
+  display: inline-flex; align-items: center;
+  padding: 0.12rem 0.6rem; border-radius: 1rem;
+  font-size: 0.72rem; font-weight: 700; color: #fff;
+  white-space: nowrap; line-height: 1.6;
+}
+.tag.tank      { background: #2f7d52; }  /* 坦克/防御 绿 */
+.tag.warrior   { background: #b5462a; }  /* 战士 红棕 */
+.tag.assassin  { background: #5a3d8c; }  /* 刺客 紫 */
+.tag.mage      { background: #2563a8; }  /* 法师 蓝 */
+.tag.marksman  { background: #b88a1e; }  /* 射手 金 */
+.tag.support   { background: #1f8a99; }  /* 辅助 青 */
+.tag.faction   { background: #555; }
+.tag.region    { background: #7a5230; }
+
+/* ===== 英雄/阵营信息卡：在表格基础上的强调 ===== */
+.md-typeset .hok-profile th {
+  width: 7.5rem; white-space: nowrap; text-align: right;
+  color: var(--hok-gold); background: rgba(200,144,26,0.06);
+}
+
+/* ===== 台词/语录引用 ===== */
+.md-typeset blockquote.quote {
+  border-left: 0.35rem solid var(--hok-gold);
+  background: rgba(200,144,26,0.06);
+  font-style: italic;
+}
+
+/* grid cards 悬浮微动效 */
+.md-typeset .grid.cards > :hover {
+  border-color: var(--hok-gold);
+  box-shadow: 0 0.2rem 0.8rem rgba(200,144,26,0.25);
+  transition: all .2s ease;
+}
+
+/* mermaid 关系图居中、限宽 */
+.md-typeset .mermaid { text-align: center; margin: 1.2rem 0; }
+
+/* 首页英雄横幅 */
+.hok-hero-banner {
+  text-align: center;
+  padding: 2.2rem 1rem 1.4rem;
+  background: linear-gradient(135deg, rgba(200,144,26,0.12), rgba(26,26,46,0.05));
+  border-radius: 0.6rem;
+  margin-bottom: 1.4rem;
+}
+.hok-hero-banner h1 { border: none !important; margin: 0.2rem 0; }
+.hok-hero-banner .subtitle { color: var(--md-default-fg-color--light); font-size: 0.95rem; }
+
+/* 表格在窄屏可横向滚动 */
+.md-typeset__table { overflow-x: auto; }

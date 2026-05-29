@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="820" height="520" font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" role="img" aria-label="王者大陆等级金字塔">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#0f0f1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="520" fill="url(#bg)"/>
+  <text x="410" y="40" text-anchor="middle" fill="#f5c542" font-size="26" font-weight="700">王者大陆 · 神权等级金字塔</text>
+
+  <!-- 神明 -->
+  <polygon points="380,66 440,66 506,144 314,144" fill="#f5c542" stroke="#0f0f1a" stroke-width="2"/>
+  <text x="410" y="118" text-anchor="middle" fill="#1a1a2e" font-size="22" font-weight="700">神 明</text>
+  <!-- 神职者 -->
+  <polygon points="314,144 506,144 572,222 248,222" fill="#7e57c2" stroke="#0f0f1a" stroke-width="2"/>
+  <text x="410" y="190" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">神 职 者</text>
+  <text x="410" y="210" text-anchor="middle" fill="#e6dcff" font-size="13">改造成功 · 奥秘家族</text>
+  <!-- 人类 -->
+  <polygon points="248,222 572,222 638,300 182,300" fill="#4a90d2" stroke="#0f0f1a" stroke-width="2"/>
+  <text x="410" y="268" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">人 类</text>
+  <text x="410" y="288" text-anchor="middle" fill="#dcefff" font-size="13">方舟核心所造 · 文明主体</text>
+  <!-- 魔道 -->
+  <polygon points="182,300 638,300 704,378 116,378" fill="#b5462a" stroke="#0f0f1a" stroke-width="2"/>
+  <text x="410" y="346" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">魔 道</text>
+  <text x="410" y="366" text-anchor="middle" fill="#ffe2d6" font-size="13">改造失败 · 被弃血脉 · 倒悬天之外</text>
+  <!-- 魔种 -->
+  <polygon points="116,378 704,378 770,456 50,456" fill="#5a6b6f" stroke="#0f0f1a" stroke-width="2"/>
+  <text x="410" y="424" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">魔 种</text>
+  <text x="410" y="444" text-anchor="middle" fill="#e3eaea" font-size="13">大陆原住兽族 · 被奴役修建奇迹</text>
+
+  <!-- 左侧箭头：权力/自由 递减 -->
+  <line x1="36" y1="80" x2="36" y2="450" stroke="#f5c542" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="22" y="265" text-anchor="middle" fill="#f5c542" font-size="13" transform="rotate(-90 22 265)">权力 · 自由 递减 ↓</text>
+  <!-- 右侧箭头：人口/压迫 递增 -->
+  <line x1="788" y1="80" x2="788" y2="450" stroke="#9aa6aa" stroke-width="2" marker-end="url(#ar2)"/>
+  <text x="804" y="265" text-anchor="middle" fill="#9aa6aa" font-size="13" transform="rotate(90 804 265)">人口 · 受压迫 递增 ↓</text>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#f5c542"/></marker>
+    <marker id="ar2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9aa6aa"/></marker>
+  </defs>
+
+  <text x="410" y="492" text-anchor="middle" fill="#9aa6aa" font-size="13">降临者自封神明，以「方舟核心」造人、改造人类、奴役魔种——压迫与反抗的种子由此埋下。</text>
+</svg>
