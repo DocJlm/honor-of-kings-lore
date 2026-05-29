@@ -2,8 +2,9 @@
 
 > 王者大陆的英雄从不孤立存在。一柄剑里封着两条相爱的命，一面镜中映着护持的兄妹，一座学院走出彼此欣赏又终成宿敌的同窗，一段长城下的对峙生出说不清道不明的情愫。本页是整张「人物关系网」的总入口——我们把散落在各英雄背景故事、皮肤剧情、官方关系图与微博考据中的 **38 组核心羁绊** 汇于一处，先看全局脉络，再按 **恋人 / 亲属 / 师徒 / 宿敌 / 战友** 五条主线分章细读。
 
-!!! info "本页数据口径"
-    本页与各子页严格基于本仓库整理的关系数据（共 **38 条关系记录**），并参照英雄目录、阵营目录交叉链接。所引设定分为三个严谨度层级：**官方背景故事 / 官方关系图与微博认证（硬设定）**、**皮肤 CP 与活动认证（半官方）**、**玩家同人向（弱认证）**。每一条都会在对应子页标注其来源与严谨度，避免把皮肤浪漫化当作主线硬设定。不确定处一律以「(考据推测)」标注。
+::: info 本页数据口径
+本页与各子页严格基于本仓库整理的关系数据（共 **38 条关系记录**），并参照英雄目录、阵营目录交叉链接。所引设定分为三个严谨度层级：**官方背景故事 / 官方关系图与微博认证（硬设定）**、**皮肤 CP 与活动认证（半官方）**、**玩家同人向（弱认证）**。每一条都会在对应子页标注其来源与严谨度，避免把皮肤浪漫化当作主线硬设定。不确定处一律以「(考据推测)」标注。
+:::
 
 ---
 
@@ -54,8 +55,9 @@ graph TD
     class YANGJIAN,YINGZHENG,BAIQI,LIBAI,HANXIN,SUNBIN ally;
 ```
 
-!!! tip "如何读这张图"
-    同一个英雄可能在多种关系里反复出现——这正是王者关系网最迷人之处。例如 [虞姬](../heroes/haojing-fengshen.md#虞姬) 既是 [项羽](../heroes/haojing-fengshen.md#项羽) 的恋人，又是 [姜子牙](../heroes/haojing-fengshen.md#姜子牙) 的徒弟；[百里玄策](../heroes/changcheng.md#百里玄策) 既是 [百里守约](../heroes/changcheng.md#百里守约) 的亲弟弟，又是 [兰陵王](../heroes/modao-shadow-abyss.md#兰陵王) 的徒弟；[曜](../heroes/changan.md#曜) 既是 [镜](../heroes/changan.md#镜) 的弟弟，又是「星之队」的战友与稷下学子。完整交织请看各分章。
+::: tip 如何读这张图
+同一个英雄可能在多种关系里反复出现——这正是王者关系网最迷人之处。例如 [虞姬](../heroes/haojing-fengshen.md#虞姬) 既是 [项羽](../heroes/haojing-fengshen.md#项羽) 的恋人，又是 [姜子牙](../heroes/haojing-fengshen.md#姜子牙) 的徒弟；[百里玄策](../heroes/changcheng.md#百里玄策) 既是 [百里守约](../heroes/changcheng.md#百里守约) 的亲弟弟，又是 [兰陵王](../heroes/modao-shadow-abyss.md#兰陵王) 的徒弟；[曜](../heroes/changan.md#曜) 既是 [镜](../heroes/changan.md#镜) 的弟弟，又是「星之队」的战友与稷下学子。完整交织请看各分章。
+:::
 
 ---
 
@@ -71,14 +73,15 @@ graph TD
 | **宿敌 / 对立** | 6 | 诸葛亮×司马懿、明世隐×狄仁杰、墨子×鲁班大师、孙悟空阵营×众神 | 含个人宿敌与阵营级对立 |
 | **战友 / 搭档 / 团体** | 8 | 哪吒×杨戬、嬴政×白起、星之队、长城守卫军、尧天·长安、稷下 F4 | 含双人搭档与大型群像 |
 
-!!! note "归类说明"
-    总数 38 条按主要属性归并为 13+4+7+6+8 = 38。但许多关系是 **复合型**：
-    
-    - **项羽×虞姬** 既是恋人也是师徒交织（虞姬师承姜子牙），主归「恋人」，「师徒」线另收 [姜子牙×虞姬](mentor.md)。
-    - **诸葛亮×司马懿** 既是稷下同窗挚友（战友底色）又是官方明确宿敌，主归「宿敌」，并在 [战友页](squad.md) 的「稷下 F4」中再现。
-    - **花木兰×兰陵王** 官方更多以「宿命/敌手」定位、恋人色彩半官方，主归「宿敌」，恋人色彩另在 [恋人页](../relationships/lovers.md) 提示。
-    
-    因此各子页之间存在 **有意的交叉引用**，请结合阅读。
+::: info 归类说明
+总数 38 条按主要属性归并为 13+4+7+6+8 = 38。但许多关系是 **复合型**：
+
+- **项羽×虞姬** 既是恋人也是师徒交织（虞姬师承姜子牙），主归「恋人」，「师徒」线另收 [姜子牙×虞姬](mentor.md)。
+- **诸葛亮×司马懿** 既是稷下同窗挚友（战友底色）又是官方明确宿敌，主归「宿敌」，并在 [战友页](squad.md) 的「稷下 F4」中再现。
+- **花木兰×兰陵王** 官方更多以「宿命/敌手」定位、恋人色彩半官方，主归「宿敌」，恋人色彩另在 [恋人页](../relationships/lovers.md) 提示。
+
+因此各子页之间存在 **有意的交叉引用**，请结合阅读。
+:::
 
 ---
 
@@ -127,8 +130,9 @@ graph TD
 | 37 | 战友 | 尧天·长安（明世隐·[公孙离](../heroes/changan.md#公孙离)·[弈星](../heroes/jixia.md#弈星)·[杨玉环](../heroes/changan.md#杨玉环)·[裴擒虎](../heroes/baiyue.md#裴擒虎)） | 同阵营战友（尧天·长安） | 硬 |
 | 38 | 战友 | 长安女帝势力（[武则天](../heroes/changan.md#武则天)·[上官婉儿](../heroes/changan.md#上官婉儿)·[狄仁杰](../heroes/changan.md#狄仁杰)·[李元芳](../heroes/changan.md#李元芳)） | 主仆／君臣式羁绊 | 硬 |
 
-!!! warning "关于「明世隐」无独立锚点"
-    [尧天](../factions/changan.md) 首领 **明世隐** 在关系数据中多次出现，但暂未收录为独立英雄页节点，故上表对其只作文本表述、不挂链接，避免产生死链。其事迹可在 [宿敌页](rivalry.md) 与 [战友页](squad.md) 的尧天章节查阅。（考据推测：其阵营归属为长安·尧天）
+::: warning 关于「明世隐」无独立锚点
+[尧天](../factions/changan.md) 首领 **明世隐** 在关系数据中多次出现，但暂未收录为独立英雄页节点，故上表对其只作文本表述、不挂链接，避免产生死链。其事迹可在 [宿敌页](rivalry.md) 与 [战友页](squad.md) 的尧天章节查阅。（考据推测：其阵营归属为长安·尧天）
+:::
 
 下面用一张 **思维导图** 把「五大主线 → 代表羁绊」的层级关系收束成一图，便于速记：
 
@@ -170,86 +174,53 @@ mindmap
       "长城守卫军／尧天·长安"
 ```
 
-!!! tip "「枢纽人物」——出现在最多关系里的英雄"
-    有几位英雄是整张网的「枢纽节点」，跨多条主线反复登场，是串联剧情的关键：
+::: tip 「枢纽人物」——出现在最多关系里的英雄
+有几位英雄是整张网的「枢纽节点」，跨多条主线反复登场，是串联剧情的关键：
 
-    | 枢纽英雄 | 涉及关系（择要） | 横跨主线 |
-    | :-- | :-- | :-- |
-    | [姜子牙](../heroes/haojing-fengshen.md#姜子牙) | 虞姬之师 · 妲己之造物者 | 师徒 ×2 |
-    | [虞姬](../heroes/haojing-fengshen.md#虞姬) | 项羽之恋人 · 姜子牙之徒 | 恋人 ＋ 师徒 |
-    | [百里玄策](../heroes/changcheng.md#百里玄策) | 守约之弟 · 兰陵王之徒 · 长城守卫军 | 亲属 ＋ 师徒 ＋ 战友 |
-    | [曜](../heroes/changan.md#曜) | 镜之弟 · 星之队队长 · 稷下学子 | 亲属 ＋ 战友 ＋ 师承 |
-    | [诸葛亮](../heroes/sanfen-shu.md#诸葛亮) | 司马懿之挚友兼宿敌 · 元歌之师兄 · 稷下 F4 | 宿敌 ＋ 师徒 ＋ 战友 |
-    | [兰陵王](../heroes/modao-shadow-abyss.md#兰陵王) | 玄策之师 · 花木兰之宿命敌手 | 师徒 ＋ 宿敌（兼暧昧恋人色彩） |
-    | [明世隐](../factions/changan.md) | 弈星之师 · 狄仁杰之政敌 · 尧天首领 | 师徒 ＋ 宿敌 ＋ 战友 |
-    | [狄仁杰](../heroes/changan.md#狄仁杰) | 李白之追捕者 · 明世隐之政敌 · 女帝近臣 | 宿敌 ×2 ＋ 战友 |
+| 枢纽英雄 | 涉及关系（择要） | 横跨主线 |
+| :-- | :-- | :-- |
+| [姜子牙](../heroes/haojing-fengshen.md#姜子牙) | 虞姬之师 · 妲己之造物者 | 师徒 ×2 |
+| [虞姬](../heroes/haojing-fengshen.md#虞姬) | 项羽之恋人 · 姜子牙之徒 | 恋人 ＋ 师徒 |
+| [百里玄策](../heroes/changcheng.md#百里玄策) | 守约之弟 · 兰陵王之徒 · 长城守卫军 | 亲属 ＋ 师徒 ＋ 战友 |
+| [曜](../heroes/changan.md#曜) | 镜之弟 · 星之队队长 · 稷下学子 | 亲属 ＋ 战友 ＋ 师承 |
+| [诸葛亮](../heroes/sanfen-shu.md#诸葛亮) | 司马懿之挚友兼宿敌 · 元歌之师兄 · 稷下 F4 | 宿敌 ＋ 师徒 ＋ 战友 |
+| [兰陵王](../heroes/modao-shadow-abyss.md#兰陵王) | 玄策之师 · 花木兰之宿命敌手 | 师徒 ＋ 宿敌（兼暧昧恋人色彩） |
+| [明世隐](../factions/changan.md) | 弈星之师 · 狄仁杰之政敌 · 尧天首领 | 师徒 ＋ 宿敌 ＋ 战友 |
+| [狄仁杰](../heroes/changan.md#狄仁杰) | 李白之追捕者 · 明世隐之政敌 · 女帝近臣 | 宿敌 ×2 ＋ 战友 |
+:::
 
 ---
 
 ## 四、分章导航
 
-<div class="grid cards" markdown>
-
--   :material-heart: __恋人 · 夫妻__
-
-    ---
-
-    从一柄剑里同体共生的 [干将](../heroes/jixia.md#干将莫邪) 与莫邪，到「霸王别姬」的 [项羽](../heroes/haojing-fengshen.md#项羽)×[虞姬](../heroes/haojing-fengshen.md#虞姬)，再到转生相守的 [瑶](../heroes/baiyue.md#瑶)×[云中君](../heroes/baiyue.md#云中君)。官配、皮肤 CP、单恋与争议向一网打尽，并逐对标注严谨度。
-
-    [:octicons-arrow-right-24: 进入恋人页](../relationships/lovers.md)
-
--   :material-account-multiple: __亲属 · 血缘家族__
-
-    ---
-
-    长城畔约定永不分离的 [百里守约](../heroes/changcheng.md#百里守约)×[百里玄策](../heroes/changcheng.md#百里玄策)、史实姐妹「二乔」、孙氏兄妹串起的姻亲网，以及神职家族出身、相依为命的 [镜](../heroes/changan.md#镜)×[曜](../heroes/changan.md#曜)。
-
-    [:octicons-arrow-right-24: 进入亲属页](../relationships/kinship.md)
-
--   :material-school: __师徒 · 师承 · 造物__
-
-    ---
-
-    以心换命的 [太乙真人](../heroes/haojing-fengshen.md#太乙真人)×[哪吒](../heroes/haojing-fengshen.md#哪吒)、暗影传艺的 [兰陵王](../heroes/modao-shadow-abyss.md#兰陵王)×[百里玄策](../heroes/changcheng.md#百里玄策)、有教无类的稷下三贤者门庭，乃至 [姜子牙](../heroes/haojing-fengshen.md#姜子牙) 造形注魂的 [妲己](../heroes/haojing-fengshen.md#妲己)。
-
-    [:octicons-arrow-right-24: 进入师徒页](mentor.md)
-
--   :material-sword-cross: __宿敌 · 对立阵营__
-
-    ---
-
-    相识于稷下、相杀于天下的 [诸葛亮](../heroes/sanfen-shu.md#诸葛亮)×[司马懿](../heroes/sanfen-wei.md#司马懿)，长城下宿命交锋的 [花木兰](../heroes/changan.md#花木兰)×[兰陵王](../heroes/modao-shadow-abyss.md#兰陵王)，以及起义军与众神的阵营级烽火。
-
-    [:octicons-arrow-right-24: 进入宿敌页](rivalry.md)
-
--   :material-shield-account: __战友 · 搭档 · 团体__
-
-    ---
-
-    从对手到生死搭档的 [哪吒](../heroes/haojing-fengshen.md#哪吒)×[杨戬](../heroes/haojing-fengshen.md#杨戬)、情同手足的 [嬴政](../heroes/changan.md#嬴政)×[白起](../heroes/jixia.md#白起)，以及「星之队」「稷下 F4」「长城守卫军」「尧天·长安」等团体群像。
-
-    [:octicons-arrow-right-24: 进入战友页](squad.md)
-
+<div class="hok-cards">
+<a class="hok-card" href="../relationships/lovers"><span class="hok-card-title">干将</span><span class="hok-card-desc">恋人 · 夫妻__ 从一柄剑里同体共生的  与莫邪，到「霸王别姬」的 ×，再到转生相守的 ×。官配、皮肤 CP、单恋与争议向一网打尽，并逐对标注严谨度。</span></a>
+<a class="hok-card" href="../relationships/kinship"><span class="hok-card-title">百里守约</span><span class="hok-card-desc">亲属 · 血缘家族__ 长城畔约定永不分离的 ×、史实姐妹「二乔」、孙氏兄妹串起的姻亲网，以及神职家族出身、相依为命的 ×。</span></a>
+<a class="hok-card" href="mentor"><span class="hok-card-title">太乙真人</span><span class="hok-card-desc">师徒 · 师承 · 造物__ 以心换命的 ×、暗影传艺的 ×、有教无类的稷下三贤者门庭，乃至  造形注魂的 。</span></a>
+<a class="hok-card" href="rivalry"><span class="hok-card-title">诸葛亮</span><span class="hok-card-desc">宿敌 · 对立阵营__ 相识于稷下、相杀于天下的 ×，长城下宿命交锋的 ×，以及起义军与众神的阵营级烽火。</span></a>
+<a class="hok-card" href="squad"><span class="hok-card-title">哪吒</span><span class="hok-card-desc">战友 · 搭档 · 团体__ 从对手到生死搭档的 ×、情同手足的 ×，以及「星之队」「稷下 F4」「长城守卫军」「尧天·长安」等团体群像。</span></a>
 </div>
 
-!!! warning "关于严谨度：皮肤 CP / 半官方 / 同人向"
-    王者荣耀的人物关系来源庞杂，**并非全部都是「主线硬设定」**，请务必区分：
+::: warning 关于严谨度：皮肤 CP / 半官方 / 同人向
+王者荣耀的人物关系来源庞杂，**并非全部都是「主线硬设定」**，请务必区分：
 
-    - **皮肤 CP（半官方）**：如 [后羿](../heroes/shanggu-shenhua.md#后羿)×[嫦娥](../heroes/shanggu-shenhua.md#嫦娥)、[孙悟空](../heroes/shanggu-shenhua.md#孙悟空)×[露娜](../heroes/changan.md#露娜)、[亚瑟](../heroes/changan.md#亚瑟)×[安琪拉](../heroes/jixia.md#安琪拉)——情侣皮肤将其浪漫化，但 **主线中二人或时间错位、或从未相遇、或仅为仰慕**，不等于在世相守的官方爱情线。
-    - **存争议设定**：如「亚瑟剧情向 CP 究竟是安琪拉还是 [艾琳](../heroes/shanggu-shenhua.md#艾琳)」众说纷纭；[花木兰](../heroes/changan.md#花木兰)×[兰陵王](../heroes/modao-shadow-abyss.md#兰陵王) 官方曾辟谣情侣皮肤，恋人色彩属暧昧半官方。
-    - **同人向（弱认证）**：如 [李白](../heroes/changan.md#李白)×[韩信](../heroes/jianghu-xiake.md#韩信)（信白）在玩家中常被视作 CP，但官方定位更接近「世交挚友 / 相爱相杀」。
-    - **版本演变**：如 [姜子牙](../heroes/haojing-fengshen.md#姜子牙) 与 [妲己](../heroes/haojing-fengshen.md#妲己) 的「造物者」关系为 **现行世界观** 设定，与早期版本存在差异。
+- **皮肤 CP（半官方）**：如 [后羿](../heroes/shanggu-shenhua.md#后羿)×[嫦娥](../heroes/shanggu-shenhua.md#嫦娥)、[孙悟空](../heroes/shanggu-shenhua.md#孙悟空)×[露娜](../heroes/changan.md#露娜)、[亚瑟](../heroes/changan.md#亚瑟)×[安琪拉](../heroes/jixia.md#安琪拉)——情侣皮肤将其浪漫化，但 **主线中二人或时间错位、或从未相遇、或仅为仰慕**，不等于在世相守的官方爱情线。
+- **存争议设定**：如「亚瑟剧情向 CP 究竟是安琪拉还是 [艾琳](../heroes/shanggu-shenhua.md#艾琳)」众说纷纭；[花木兰](../heroes/changan.md#花木兰)×[兰陵王](../heroes/modao-shadow-abyss.md#兰陵王) 官方曾辟谣情侣皮肤，恋人色彩属暧昧半官方。
+- **同人向（弱认证）**：如 [李白](../heroes/changan.md#李白)×[韩信](../heroes/jianghu-xiake.md#韩信)（信白）在玩家中常被视作 CP，但官方定位更接近「世交挚友 / 相爱相杀」。
+- **版本演变**：如 [姜子牙](../heroes/haojing-fengshen.md#姜子牙) 与 [妲己](../heroes/haojing-fengshen.md#妲己) 的「造物者」关系为 **现行世界观** 设定，与早期版本存在差异。
 
-    上述每一条都已在各子页明确标注来源与严谨度等级。本百科力求 **客观考据**，皮肤浪漫化与主线剧情分开陈述，绝不把同人向当作官方硬设定。
+上述每一条都已在各子页明确标注来源与严谨度等级。本百科力求 **客观考据**，皮肤浪漫化与主线剧情分开陈述，绝不把同人向当作官方硬设定。
+:::
 
 ---
 
 ## 五、阅读建议
 
-!!! example "推荐路线"
-    - **想看甜的**：恋人页 → 战友页（搭档情谊）。
-    - **想看虐的**：恋人页（霸王别姬、后羿嫦娥的错位）→ 宿敌页（诸葛亮司马懿）。
-    - **想理清势力**：宿敌页（阵营级对立）→ 战友页（长城守卫军 / 尧天 / 起义军群像）→ 各 [阵营页](../factions/changan.md)。
-    - **想做考据**：本页统计表确认严谨度档位 → 进入对应子页看逐条标注 → 点链接回 [英雄页](../heroes/changan.md) 核对背景故事原文。
+::: info 推荐路线
+- **想看甜的**：恋人页 → 战友页（搭档情谊）。
+- **想看虐的**：恋人页（霸王别姬、后羿嫦娥的错位）→ 宿敌页（诸葛亮司马懿）。
+- **想理清势力**：宿敌页（阵营级对立）→ 战友页（长城守卫军 / 尧天 / 起义军群像）→ 各 [阵营页](../factions/changan.md)。
+- **想做考据**：本页统计表确认严谨度档位 → 进入对应子页看逐条标注 → 点链接回 [英雄页](../heroes/changan.md) 核对背景故事原文。
+:::
 
 > 当你顺着箭头一路点下去，会发现王者大陆没有一个孤岛——每一段爱、每一条血缘、每一次传承、每一场宿命与并肩，都在把这片大陆缝合成一张紧密相连的网。这，就是「人物关系」存在的意义。

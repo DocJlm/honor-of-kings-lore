@@ -1,0 +1,22 @@
+{
+  "name": "honor-of-kings-lore",
+  "version": "1.0.0",
+  "private": true,
+  "description": "《王者荣耀》世界观剧情、阵营势力、英雄故事与人物关系全图鉴 —— VitePress 站点。",
+  "license": "CC-BY-NC-SA-4.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "markdown-it-container": "^4.0.0",
+    "mermaid": "^11.4.1",
+    "vitepress": "^1.5.0",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vue": "^3.5.13"
+  }
+}

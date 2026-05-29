@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/img/logo.svg" width="96" alt="logo"/>
+<img src="docs/public/logo.svg" width="96" alt="logo"/>
 
 # 王者荣耀 · 王者大陆全史
 
@@ -9,7 +9,7 @@
 图文 · 表格 · 关系网 —— 务求全面，越详细越好。
 
 [![docs](https://img.shields.io/badge/阅读-文档入口-f5c542)](docs/index.md)
-[![mkdocs](https://img.shields.io/badge/built%20with-MkDocs--Material-blue)](https://squidfunk.github.io/mkdocs-material/)
+[![vitepress](https://img.shields.io/badge/built%20with-VitePress-5b6cff)](https://vitepress.dev/)
 ![heroes](https://img.shields.io/badge/英雄-120%2B-c8901a)
 ![factions](https://img.shields.io/badge/阵营-17-7e57c2)
 
@@ -19,22 +19,21 @@
 
 ## 📖 如何阅读
 
-本仓库是一座用 [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/) 构建的「**可点击阅读、跳转到页面**」的百科站点。
+本仓库是一座用 [VitePress](https://vitepress.dev/)（基于 Vite）构建的「**可点击阅读、跳转到页面**」的百科站点。
 
-=== "在线阅读（推荐）"
+**▶ 本地预览（需要 Node ≥ 18）**
 
-    部署到 GitHub Pages 后，访问：**https://winbeau.github.io/honor-of-kings-lore/**
-    （把 `winbeau` 换成你的用户名；执行 `mkdocs gh-deploy` 即可一键部署。）
+```bash
+npm install
+npm run dev        # 打开 http://localhost:5173
+# 构建：npm run build   预览产物：npm run preview
+```
 
-=== "本地预览"
+**▶ 在线部署**：推送到 GitHub 后由 `.github/workflows/deploy.yml` 自动发布到
+GitHub Pages（`https://winbeau.github.io/honor-of-kings-lore/`，把 `winbeau` 换成你的用户名）；
+也可一键部署到 Netlify / Vercel（仓库已含 `netlify.toml` 与 `vercel.json`）。
 
-    ```bash
-    python3 -m venv .venv && source .venv/bin/activate
-    pip install mkdocs-material mkdocs-glightbox
-    mkdocs serve          # 打开 http://127.0.0.1:8000
-    ```
-
-> 下方目录中的「阅读」链接直接指向 `docs/` 中的页面，在 GitHub 上即可点击查看；构建为站点后则获得搜索、深色模式、图片放大、Mermaid 图等完整体验。
+> 下方目录中的「阅读」链接直接指向 `docs/` 中的页面，在 GitHub 上即可点击查看；构建为站点后则获得**全文搜索、深色模式、Mermaid 关系图**等完整体验。
 
 ---
 

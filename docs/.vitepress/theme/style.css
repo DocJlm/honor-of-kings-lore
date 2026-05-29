@@ -1,0 +1,127 @@
+/**
+ * 王者大陆全史 · VitePress 自定义主题
+ * 金色 / 帝王 主题，呼应「王者」气质。
+ */
+:root {
+  --vp-c-brand-1: #b5821a;
+  --vp-c-brand-2: #c8901a;
+  --vp-c-brand-3: #d9a533;
+  --vp-c-brand-soft: rgba(200, 144, 26, 0.14);
+
+  --hok-gold: #c8901a;
+  --hok-gold-light: #f5c542;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #f5c542 20%, #c8901a 60%, #8a5a05 90%);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #f5c542 30%, #c8901a 60%, #7e57c2 90%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+.dark {
+  --vp-c-brand-1: #e0a82e;
+  --vp-c-brand-2: #c8901a;
+  --vp-c-brand-3: #f5c542;
+  --vp-c-brand-soft: rgba(245, 197, 66, 0.16);
+}
+
+/* 中文正文行高与字距，长文更易读 */
+html[lang^='zh'] .vp-doc p,
+html[lang^='zh'] .vp-doc li {
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+}
+
+/* 二级标题金色分隔 */
+.vp-doc h2 {
+  border-top: none;
+  border-bottom: 2px solid var(--hok-gold);
+  padding-bottom: 0.3rem;
+}
+
+/* 表格在窄屏可横向滚动 */
+.vp-doc .table-wrapper,
+.vp-doc table {
+  overflow-x: auto;
+}
+
+/* ===== 自定义容器 ::: quote（台词）===== */
+.vp-doc .custom-block.quote {
+  border-color: var(--hok-gold);
+  background: rgba(200, 144, 26, 0.08);
+  color: var(--vp-c-text-1);
+}
+.vp-doc .custom-block.quote .custom-block-title {
+  color: var(--hok-gold);
+}
+.vp-doc .custom-block.quote p:not(.custom-block-title) {
+  font-style: italic;
+}
+
+/* ===== 卡片网格 hok-cards ===== */
+.hok-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.85rem;
+  margin: 1.2rem 0;
+}
+.hok-card {
+  display: block;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  text-decoration: none !important;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+.hok-card:hover {
+  border-color: var(--hok-gold);
+  box-shadow: 0 6px 18px rgba(200, 144, 26, 0.22);
+  transform: translateY(-2px);
+}
+.hok-card .hok-card-title {
+  display: block;
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.35rem;
+}
+.hok-card .hok-card-desc {
+  display: block;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
+}
+
+/* ===== 定位标签 hok-tags ===== */
+.hok-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.2rem 0 0.6rem;
+  vertical-align: middle;
+}
+.hok-tags .tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.6rem;
+  border-radius: 1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  line-height: 1.7;
+}
+.tag.tank { background: #2f7d52; }
+.tag.warrior { background: #b5462a; }
+.tag.assassin { background: #5a3d8c; }
+.tag.mage { background: #2563a8; }
+.tag.marksman { background: #b88a1e; }
+.tag.support { background: #1f8a99; }
+.tag.faction { background: #555; }
+.tag.region { background: #7a5230; }
+
+/* mermaid 居中 */
+.vp-doc .mermaid {
+  text-align: center;
+  margin: 1.2rem 0;
+}
